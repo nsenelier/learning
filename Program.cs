@@ -10,6 +10,7 @@ namespace learning
             StringBuilder message  = new StringBuilder();
 
             if(args.Length < 1) {
+                
                 message.Append("Welcome to .Net Core!");
             }
             else {
